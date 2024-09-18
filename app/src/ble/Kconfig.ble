@@ -1,0 +1,13 @@
+# Custom BLE Configurations
+
+config BLE_OPCODES_LOG_LEVEL
+  int "Module log level"
+  default 3
+  help
+    Log level for BLE OpCodes module
+
+config BLE_OPCODES_OP_DELAY_TIME_MS
+  int "OpCodes delay time"
+  default 5000
+  help
+    OpCodes delay time before returning a response (non-blocking)
